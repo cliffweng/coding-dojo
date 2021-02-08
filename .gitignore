@@ -11,3 +11,5 @@ largedata/
 .local/
 .conda/
 passcode.txt
+usaco/submit.py
+*.out
