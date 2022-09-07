@@ -30,6 +30,22 @@ For those more advanced kids who want to launch "Coding Dojo" locally, you need 
 - jupyter
 - matplotlib
 - scikit-learn
+- streamlit
+- nltk
+- seaborn
+- lxml
+- html5lib
+- bs4
+### Build Environments
+
+``` 
+docker build -t coding_dojo .
+```
+Launch a container with the following command:
+``` 
+docker run -p 8888:8888 -p 8501:8501 --name codedojo -e GRANT_SUDO=yes --user root -e JUPYTER_ENABLE_LAB=yes -v %cd%:/home/jovyan coding_dojo
+```
+
 ## Why Python
 Python is the language od data. There are so much support for data science, machine learning and deep learning on Python. Python could be an excellent back-end tool that collect and compute the data and serves them through a web service.
 ## Other Python Learning Sources

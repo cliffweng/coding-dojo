@@ -1,0 +1,10 @@
+streamlit
+numpy
+pandas
+nltk
+matplotlib
+scikit-learn
+seaborn
+lxml
+html5lib
+bs4
